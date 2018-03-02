@@ -23,7 +23,6 @@ public class Controller {
     public TextField Assignment10;
     private List<TextField> TextFields = new ArrayList<>();
     public TextField FinalGrade;
-    public Button isButtonPressed;
     @FXML
     private boolean is_pressed = false;
 
@@ -71,6 +70,7 @@ public class Controller {
         }
         return true;
     }
+
     private String LetterGrade(float percentage){
         if (percentage > 8/9.0) {return "A";}
         else if (percentage > 13/18.0) {return "B";}
