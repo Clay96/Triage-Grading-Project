@@ -20,7 +20,7 @@
                     <MenuItem mnemonicParsing="false" onAction="#openTriageRubric" text="Open" />
                   </items>
                 </Menu>
-                <Menu mnemonicParsing="false" text="Points">
+                <Menu mnemonicParsing="false" text="Points" visible="false">
                   <items>
                     <MenuItem mnemonicParsing="false" text="Explained N/A" />
                   </items>
@@ -119,7 +119,7 @@
                   <TextField fx:id="Assignment10" layoutX="10.0" layoutY="210.0" maxWidth="50.0" prefHeight="15.0" prefWidth="25.0" promptText="0 - 3" />
                   <BorderPane prefHeight="200.0" prefWidth="200.0">
                      <left>
-                        <TextField fx:id="FinalGrade" maxWidth="83.0" prefHeight="25.0" prefWidth="83.0" BorderPane.alignment="CENTER" />
+                        <TextField fx:id="FinalGrade" maxWidth="83.0" prefHeight="25.0" prefWidth="83.0" promptText="A, B, C, D, F" BorderPane.alignment="CENTER" />
                      </left>
                      <center>
                         <Button fx:id="Evaluate" mnemonicParsing="false" onAction="#assignment_Adder" text="Evaluate" BorderPane.alignment="CENTER" />
