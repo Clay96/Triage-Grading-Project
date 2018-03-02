@@ -12,3 +12,5 @@ This project was created to help in understanding Triage Grading.
 
 # Functions Currently N/A
  * The Tab Point explanations is currently N/A
+ * Only allow the wanted values in text boxes
+ * New color schemes
