@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="300.0">
+         <top>
+            <MenuBar prefHeight="25.0" prefWidth="196.0" BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="Rubric">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#openTriageRubric" text="Open" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Points">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Explained N/A" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </top>
+         <left>
+            <VBox prefHeight="281.0" prefWidth="109.0" spacing="5.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Assignment 1:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Assignment 2:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Assignment 3:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Assignment 4:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Assignment 5:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Assignment 6:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Assignment 7:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Assignment 8:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Assignment 9:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="10.0" text="Assignment 10:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <BorderPane prefHeight="200.0" prefWidth="200.0">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" />
+                     </padding>
+                     <center>
+                        <Label alignment="CENTER" text="Final Grade: " BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+               </children>
+               <padding>
+                  <Insets left="5.0" top="5.0" />
+               </padding>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin></VBox>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="1.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="Assignment1" maxWidth="50.0" prefWidth="25.0" promptText="0 - 3" />
+                  <TextField fx:id="Assignment2" layoutX="10.0" layoutY="10.0" maxWidth="50.0" prefHeight="15.0" prefWidth="25.0" promptText="0 - 3" />
+                  <TextField fx:id="Assignment3" layoutX="10.0" layoutY="35.0" maxWidth="50.0" prefHeight="15.0" prefWidth="25.0" promptText="0 - 3" />
+                  <TextField fx:id="Assignment4" layoutX="10.0" layoutY="60.0" maxWidth="50.0" prefHeight="15.0" prefWidth="25.0" promptText="0 - 3" />
+                  <TextField fx:id="Assignment5" layoutX="10.0" layoutY="85.0" maxWidth="50.0" prefHeight="15.0" prefWidth="25.0" promptText="0 - 3" />
+                  <TextField fx:id="Assignment6" layoutX="10.0" layoutY="110.0" maxWidth="50.0" prefHeight="15.0" prefWidth="25.0" promptText="0 - 3" />
+                  <TextField fx:id="Assignment7" layoutX="10.0" layoutY="135.0" maxWidth="50.0" prefHeight="15.0" prefWidth="25.0" promptText="0 - 3" />
+                  <TextField fx:id="Assignment8" layoutX="10.0" layoutY="160.0" maxWidth="50.0" prefHeight="15.0" prefWidth="25.0" promptText="0 - 3" />
+                  <TextField fx:id="Assignment9" layoutX="10.0" layoutY="185.0" maxWidth="50.0" prefHeight="15.0" prefWidth="25.0" promptText="0 - 3" />
+                  <TextField fx:id="Assignment10" layoutX="10.0" layoutY="210.0" maxWidth="50.0" prefHeight="15.0" prefWidth="25.0" promptText="0 - 3" />
+                  <BorderPane prefHeight="200.0" prefWidth="200.0">
+                     <left>
+                        <TextField fx:id="FinalGrade" maxWidth="83.0" prefHeight="25.0" prefWidth="83.0" BorderPane.alignment="CENTER" />
+                     </left>
+                     <center>
+                        <Button fx:id="Evaluate" mnemonicParsing="false" onAction="#assignment_Adder" text="Evaluate" BorderPane.alignment="CENTER" />
+                     </center>
+                  </BorderPane>
+               </children>
+               <padding>
+                  <Insets top="2.0" />
+               </padding>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

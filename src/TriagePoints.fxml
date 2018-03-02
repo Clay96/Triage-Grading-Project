@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane fx:id="TriageExplained" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="400.0" prefWidth="602.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea editable="false" prefHeight="100.0" text="To score a 3 in Triage Grading: &#10;The 3 is a representation of fully completing the assignment. This means that to score a 3 in the Triage System&#10;you must complete the assginment and meet every requirment that has been placed.&#10;&#10;" />
+            <TextArea editable="false" prefHeight="100.0" text="To score a 2 in Triage Grading:&#10;The 2 is a representation of completing the assignment, However while it has been completed it has not met&#10;every requirement to recieve the full 3 points." />
+            <TextArea prefHeight="100.0" text="To score a 1 in Triage Grading:&#10;The 1 is a representations of and attempt on the assignment. The score of 1 is given when multiple&#10;requirments have not been met resulting in the score of 1." />
+            <TextArea prefHeight="100.0" text="To score a 0 in Triage Grading:&#10;The 0 represents a lack of attempting the assignment or a failing to meet any of the requirments for&#10;the assignment." />
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
